@@ -6,16 +6,93 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>774</width>
+    <height>486</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
   <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>774</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuQLink">
+    <property name="title">
+     <string>QLink</string>
+    </property>
+    <addaction name="actionReturn"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuLoad">
+    <property name="title">
+     <string>读档</string>
+    </property>
+    <addaction name="actionLoadSingle"/>
+    <addaction name="actionLoadDuo"/>
+   </widget>
+   <widget class="QMenu" name="menuSave">
+    <property name="title">
+     <string>存档</string>
+    </property>
+    <addaction name="actionSaveFile"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>游戏选项</string>
+    </property>
+    <addaction name="actionPause"/>
+   </widget>
+   <addaction name="menuQLink"/>
+   <addaction name="menuLoad"/>
+   <addaction name="menuSave"/>
+   <addaction name="menu"/>
+  </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionReturn">
+   <property name="text">
+    <string>回到主菜单</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>退出游戏</string>
+   </property>
+  </action>
+  <action name="actionLoadSingle">
+   <property name="text">
+    <string>从单人模式存档中读取游戏</string>
+   </property>
+  </action>
+  <action name="actionLoadDuo">
+   <property name="text">
+    <string>从双人游戏存档中读取游戏</string>
+   </property>
+  </action>
+  <action name="actionSaveFile">
+   <property name="text">
+    <string>将当前游戏保存至对应游戏模式文件并覆盖</string>
+   </property>
+  </action>
+  <action name="actionSaveCode">
+   <property name="text">
+    <string>仅保存为代码</string>
+   </property>
+  </action>
+  <action name="actionPause">
+   <property name="text">
+    <string>暂停/继续</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>

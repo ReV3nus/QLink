@@ -1,0 +1,20 @@
+1024 576
+
+4*13 + 2 + 13+4+1
+*2
+
+9*16
+11 18
+
+0 empty
+1 spade 	0~13
+2 heart 	0~13
+3 club		0~13
+4 diamond	0~13
+5 any		0~15
+6 character
+7 item
+
+0~13
+14 joker
+15 Joker

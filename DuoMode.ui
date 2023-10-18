@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DuoMode</class>
+ <widget class="QWidget" name="DuoMode">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1275</width>
+    <height>737</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="displaywidget_p1" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>541</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TimeWordLabel">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>560</y>
+     <width>161</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Handwriting</family>
+     <pointsize>28</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:grey</string>
+   </property>
+   <property name="text">
+    <string>TIME</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TimeLabel">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>620</y>
+     <width>161</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Handwriting</family>
+     <pointsize>49</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:grey</string>
+   </property>
+   <property name="text">
+    <string>300</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ScoreWordLabel_p2">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>550</y>
+     <width>541</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Handwriting</family>
+     <pointsize>15</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>PLAYER2'S SCORE</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ScoreLabel_p2">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>590</y>
+     <width>541</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Handwriting</family>
+     <pointsize>41</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>99999999</string>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TitileLabel">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>0</y>
+     <width>611</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Kristen ITC</family>
+     <pointsize>24</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>QLink Game(Duo Mode)</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="GAMELabel">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>240</y>
+     <width>901</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Handwriting</family>
+     <pointsize>50</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(255, 255, 255)
+</string>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="text">
+    <string>SCORE:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1281</width>
+     <height>741</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:url(:/Resource/paper-bg.jpg)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="displaywidget_p2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>180</y>
+     <width>541</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="VSLabel">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>280</y>
+     <width>161</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Kristen ITC</family>
+     <pointsize>67</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>VS</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ScoreWordLabel_p1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>550</y>
+     <width>541</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Handwriting</family>
+     <pointsize>15</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>PLAYER1'S SCORE</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ScoreLabel_p1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>590</y>
+     <width>541</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Handwriting</family>
+     <pointsize>41</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>99999999</string>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PlayerLabel_p1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>561</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Kristen ITC</family>
+     <pointsize>24</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>PLAYER 1</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PlayerLabel_p2">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>90</y>
+     <width>561</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Kristen ITC</family>
+     <pointsize>24</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>PLAYER 2</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <zorder>background</zorder>
+  <zorder>displaywidget_p1</zorder>
+  <zorder>TitileLabel</zorder>
+  <zorder>displaywidget_p2</zorder>
+  <zorder>VSLabel</zorder>
+  <zorder>TimeLabel</zorder>
+  <zorder>TimeWordLabel</zorder>
+  <zorder>ScoreWordLabel_p2</zorder>
+  <zorder>ScoreLabel_p2</zorder>
+  <zorder>ScoreWordLabel_p1</zorder>
+  <zorder>ScoreLabel_p1</zorder>
+  <zorder>PlayerLabel_p1</zorder>
+  <zorder>PlayerLabel_p2</zorder>
+  <zorder>GAMELabel</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

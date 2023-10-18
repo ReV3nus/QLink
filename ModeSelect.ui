@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ModeSelect</class>
+ <widget class="QWidget" name="ModeSelect">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>641</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>641</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="leftMargin">
+      <number>200</number>
+     </property>
+     <property name="topMargin">
+      <number>50</number>
+     </property>
+     <property name="rightMargin">
+      <number>200</number>
+     </property>
+     <property name="bottomMargin">
+      <number>50</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="singleButton">
+       <property name="text">
+        <string>单人模式</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="duoButton">
+       <property name="text">
+        <string>双人模式</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="returnButton">
+       <property name="text">
+        <string>返回</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
